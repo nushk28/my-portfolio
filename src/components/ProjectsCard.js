@@ -12,7 +12,7 @@ const ProjectsCard = ({ image, title, description, tools, link }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{description}</Card.Subtitle>
-          <Card.Text><strong><I>Tools & Technologies:</I></strong>{tools}</Card.Text>
+          <Card.Text><strong>Tools & Technologies:</strong>{tools}</Card.Text>
         </Card.Body>
       </Card>
     );
