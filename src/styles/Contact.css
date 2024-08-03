@@ -1,0 +1,31 @@
+/* src/styles/Contact.css */
+.contact {
+    padding: 20px;
+    background-color: silver;
+    border-radius: 0px;
+  }
+  
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-list a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-list a:hover {
+    color: blue;
+  }
+  
+  .contact-list a .fa-icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  

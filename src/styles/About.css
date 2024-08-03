@@ -1,0 +1,15 @@
+.about-me {
+    padding: 20px;
+  }
+  
+  .about-me h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .about-me p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+  
