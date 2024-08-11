@@ -4,6 +4,8 @@ import '../styles/Contact.css';  // Adjusted the import path
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faInstagram, faHackerrank } from '@fortawesome/free-brands-svg-icons';
+import leetcode from './leetcode.png';  
+import ninja from './ninja.jpg';
 
 const Contact = () => {
   return (
@@ -20,7 +22,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faGithub} /> GitHub
         </a>
         <a href="https://leetcode.com/u/Anushka_Srivastava_28/">
-          <FontAwesomeIcon icon={faLinkedin} /> LeetCode
+          <img src = {leetcode} alt="leetcode"  style={{ width: 20, height: 18 }}/>LeetCode
         </a>
         <a href="https://www.hackerrank.com/profile/h500096291">
           <FontAwesomeIcon icon={faHackerrank} /> HackerRank
@@ -29,7 +31,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faInstagram} /> Instagram
         </a>
         <a href="https://www.naukri.com/code360/profile/8ccec838-31d6-4214-b21a-7c79664adc5d">
-          <FontAwesomeIcon icon={faInstagram} /> Coding Ninjas
+        <img src = {ninja} alt="ninja"  style={{ width: 20, height: 18 }}/> Coding Ninjas
         </a>
       </div>
     </div>

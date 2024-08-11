@@ -13,6 +13,13 @@ import './App.css';
 function App() {
   const experiences = [
     {
+      image: 'intern2.jpg',
+      title: 'Social Intern',
+      company: 'Srijan Social Internship',
+      duration: 'June 2022 - July 2022',
+      description: 'Interned at Subhash Children Society, an organization dedicated to addressing the challenges and crimes faced by children.',
+    },
+    {
       image: 'intern1.png',
       title: 'Web Development Intern',
       company: 'OCTANET',
@@ -20,18 +27,20 @@ function App() {
       description: 'Completed three front-end development tasks involving HTML, CSS, and JavaScript. Utilized GitHub for version control, gaining practical experience and understanding its functionalities.',
       link: 'https://github.com/nushk28/OCTANET_AUGUST', 
     },
+    
     {
-      image: 'intern2.jpg',
-      title: 'Social Intern',
-      company: 'Srijan Social Internship',
-      duration: 'June 2022 - July 2022',
-      description: 'Interned at Subhash Children Society, an organization dedicated to addressing the challenges and crimes faced by children.',
+      image: 'intern3.jpg',
+      title: 'Technical Intern',
+      company: 'IBM Phemesoft',
+      duration: 'June 2024 - July 2024',
+      description: 'Developed an IoT and cloud-based smart irrigation system using AWS, Node.js, and React.',
+      link: 'https://github.com/unnati14ag/smart_irrigate/tree/main',
     },
   ];
 
   const projects = [
     {
-      image: 'project1.jpg',
+      image: 'project1.png',
       title: 'HiringHive Job Portal',
       description: 'Portal simplifies job search, and management processes for both job seekers and recruiters.',
       tools: 'Java Springboot, React.js, MongoDB',
@@ -44,13 +53,20 @@ function App() {
       tools: 'MongoDB, Express, React, Node',
       link: 'https://github.com/nushk28/CPT_PROJECTS', 
     },
+    {
+      image: 'project3.png',
+      title: 'Dracarys',
+      description: 'Get mesmerized by the world of dragons and their riders.',
+      tools: 'HTML, CSS, JavaScript',
+      link: 'https://github.com/nushk28/dracarys-adv', 
+    },
   ];
 
   return (
     <Router>
       <Navbar />
         <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
-        <div className="w-100" style={{ maxWidth: '400px' }}>
+        <div className="w-100" >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
